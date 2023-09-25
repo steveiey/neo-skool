@@ -29,9 +29,14 @@ input = meaning of amogu
 
 
 
+
+
+
+
+
 # [[Strings]]
 
-
+[[Design]]
 
 
 
@@ -46,3 +51,4 @@ use # to tell python to ignore text
 
 
 
+# [[Design]]
