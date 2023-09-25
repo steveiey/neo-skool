@@ -1,6 +1,6 @@
 # Headings
 
-  ~~~
+  
   
 
 make headings with #
@@ -157,9 +157,6 @@ tools
   
 
 | sus  | amogus  |  oh no |
-
 | ---   | ---          |---|
-
 |Alive | no | amogus|
-
-|not alive| alive| amongus
+|not alive| alive| amongus|

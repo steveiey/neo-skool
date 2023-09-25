@@ -17,3 +17,7 @@ print("I have two rules. Rule one: I’m always right. Rule two: If I’m wrong,
 # respond
 input("What is your favourite quote?")
 print("Very cool")
+
+# ask food
+sile = input("What do you want to eat?")
+print (f"{sile}? What the hell is wrong with you?")

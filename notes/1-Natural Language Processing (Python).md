@@ -13,6 +13,25 @@ print()
 Wait for me to type something and enter
 then will do Something
 
+input("")
+
+
+# Variable
+store input or something/ attach it to a word 
+
+```python
+amogu = input()
+```
+
+= give a variable meaning
+amogu = name of variable
+input = meaning of amogu
+
+
+
+# [[Strings]]
+
+
 
 
 
@@ -22,6 +41,8 @@ then will do Something
 Pieces of text *NOT* read by python
 use # to tell python to ignore text
 
-# [Header]
+# [[Header]]
 # Title # Name # Date
+
+
 
