@@ -19,18 +19,36 @@ print(f"{NAME} I hATE uR nAME")
 # Ask food
 time.sleep(1)
 FOOD = input("What is ur favourite food. Dont disappoint me again")
-# Respond food
-time.sleep(1)
-print(f"AGLJLGJESIGJSLKGJSLK NO {FOOD} ALLOWEDSD ffsafsddaafeag")
+
+
+
+# if respond "poopoo" answer something related 
+if FOOD == "poopoo" or "POOPOO" == "PooPoo":
+    print("Canabalism is not healthy")
+elif FOOD == "SUS":
+    print("AMOGUS!")
+elif FOOD == "MONEYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY":
+    print("you found and easter egg. Also, you are weird...")
+else:
+    time.sleep(1)
+    print(f"AGLJLGJESIGJSLKGJSLK NO {FOOD} ALLOWEDSD ffsafsddaafeag")
+    LIST = [
+    "AMOGUS", "NO", "Are you serious", "NO", "Bruh"
+    ]
+    randomfod = random.choice (LIST)
+    time.sleep(1)
+    print(randomfod)
+   
+
 
 
 # NO MORE REPeating
 # HAVE A LIST OF COMMENTS
 
-LIST = [
-    "AMOGUS", "NO", "Are you serious", "NO", "Bruh"
-    ]
 
-randomfod = random.choice (LIST)
-time.sleep(1)
-print(randomfod)
+
+
+
+
+
+
