@@ -40,7 +40,17 @@ else:
     print("WE COULD NOT FIND THEM!!!!!!!!")
 
 
-for _ in range (10):
-    print("Mr.Ubial huffs copium.")
-for i in range(8909890):
-	print(i)
+# for _ in range (10):
+ #   print("Mr.Ubial huffs copium.")
+# for i in range(1):
+# 	print(i)
+     
+# start at another number
+for i in range(1, 9, 17): # (99, 1) works
+    print(i)
+
+for i in range(1200, 1501, 2):
+    print(i)
+
+for i in range(-149, 1, 2):
+    print(i)
