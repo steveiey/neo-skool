@@ -15,7 +15,7 @@ if feel.lower().strip("!,.?") == good
 	print("ok")
 ```
 
-.split(str) gives us a list seperate based on stuff given
+.split(str) gives us a list separate based on stuff given
 ```python
 list = "a b c d"
 list = list.split(" ")
