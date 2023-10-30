@@ -22,3 +22,20 @@ stars = ["Polaris", "Vega", "Sun"]
 for adj in adjectives:
     for word in stars:
         print(adj + word)
+
+for i in range(10): 
+    print(i)
+
+some_list = ["beans", "magic", "beanstalk"] 
+ 
+print(some_list[0][1])
+
+
+ubials_inventory = ["sword", "shield", "flask", "phone", "bigger sword"] 
+ 
+if "phone" in ubials_inventory: 
+    print("raining")
+
+
+ 
+print("bigger sword" in ubials_inventory)
