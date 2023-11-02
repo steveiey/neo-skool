@@ -14,4 +14,16 @@ e = "food"
 diff types
 ```
 
+## converting types
+
+special functions in python that convert one type to another
+```python
+intro = "my name is"
+age = 16
+
+intro + age # will break
+
+```
+
+
 [[integers]]
