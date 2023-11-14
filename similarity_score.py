@@ -11,7 +11,7 @@ ppl_fave_movie = ["matrix", "avengers", "infernal", "empires stike back", "rogue
 otherppl_fave_movie = ["amongus", "avengers", "sus", "rogue one"]
 
 #compare +1 score if same movie
-
+#only two data point
 for movie in ppl_fave_movie:
     if movie in otherppl_fave_movie:
         similarity_score += 1
