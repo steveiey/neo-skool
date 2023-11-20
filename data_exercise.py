@@ -2,8 +2,8 @@ from pathlib import Path
 chicken_meter = 0
 chinameter = 0
 # File Exercises
-# Author:
-#
+# Author:Damien
+# Nov something
 
 """Instructions:
 
