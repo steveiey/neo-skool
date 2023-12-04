@@ -25,7 +25,7 @@ def stars(stary: int) -> str:
 	return nite
 print(stars(5))
 
-def biggest_of_three(number1, number2, number3: int) -> str:
+def biggest_of_three(number1, number2, number3: float) -> str:
 	biggg = 0
 	if number1 > biggg:
 			biggg = number1
@@ -34,15 +34,21 @@ def biggest_of_three(number1, number2, number3: int) -> str:
 	if number3 > biggg:
 			biggg = number3
 	return biggg
-print(biggest_of_three(1, 2, 3))
+print(biggest_of_three(542,777,1))
 
-def pyramid(layers: int) -> str:
-	for i in range(layers):
-		ok = "*" + "*"*i
-		
-	
-		
-		
-		return ok
-	
+def pyramid(layers: int) ->None:
+	for i in range(layers+1):
+		print(stars(i))
+
+
+
+
+
 print(pyramid(6))
+
+def pyramid_mirror(layers: int) -> None:
+	for i in range(layers+1):
+		spaces = " "*(layers-i)
+		print( spaces + stars(i))
+
+pyramid_mirror(10)
