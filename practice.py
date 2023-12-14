@@ -52,3 +52,23 @@ def pyramid_mirror(layers: int) -> None:
 		print( spaces + stars(i))
 
 pyramid_mirror(10)
+
+
+def linear_search(l:list, item:  any) -> int:
+	"""Search through a list and gives location of item.
+will return -1 if nothing found"""
+
+	counter = 0
+
+#search
+	for thing in l:
+		if thing == item:
+			return counter
+		counter += 1
+
+
+		
+	return -1
+pockets = ["sus","amogus", "eat", "consume", "keys"]
+results = linear_search(pockets, "keys")
+print(f"THEY ARE {results}")
