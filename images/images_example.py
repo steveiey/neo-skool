@@ -6,7 +6,7 @@ from PIL import Image
 
 def pixel_to_name(pixel: tuple)->str:
     red, green, blue = pixel
-    if red < 70 and blue < 70 and green > 180:
+    if red < 140 and blue < 140 and green > 100:
         return "green"
     else:
         return "idk"
