@@ -1,4 +1,4 @@
-#COLOUR HELP
+#COLOUR HELP + BEAN COUNTER
 #JAn something
 # Damien
 from PIL import Image
@@ -7,7 +7,7 @@ yellow = []
 navy = []
 green = []
 totpix = 0
-totred = len(redpix)
+
 
 
 
@@ -37,7 +37,7 @@ with Image.open("./images/AH.jpg") as im:
             elif pixel_to_name(pixel) == "green":
                 green.append((x,y))
             elif pixel_to_name(pixel) == "yellow":
-                green.append((x,y))
+                yellow.append((x,y))
             else:
                 im.putpixel((x, y), (0,0,0))
     im.save("./images/greenandredandyellow.jpg")
@@ -47,7 +47,8 @@ with Image.open("./images/AH.jpg") as im:
     totpix = height * width
 totred = len(redpix)
 totgrn = len(green)
-
+totyel = len(yellow)
 
 print(f"red:{totred/totpix*100}%")
 print(f"green:{totgrn/totpix*100}%")
+print(f"yellow:{totyel/totpix*100}%")
